@@ -34,12 +34,11 @@ cargo run
 ```
 
 ### Input Instructions
-```bash
  - Enter the first number.
  - Specify the operation (+ for addition, - for subtraction, * for multiplication, / for division).
  - Enter the second number.
  - View the result.
-```
+
 
 ## How It Works
 
@@ -55,5 +54,5 @@ cargo run
    - The program prompts the user to enter two numbers and an operation.  
    - Based on the input, an `Operation` enum instance is created and passed to the `calculate` function.  
    - The result is computed and printed to the console.
-```
+
 
